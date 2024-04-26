@@ -20,7 +20,7 @@ const char* parametro_entrada = "valor";
 
 AsyncWebServer servidor(80);
 
-const char index_html[] = R"rawliteral(
+const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML>
 <html>
 <head>
